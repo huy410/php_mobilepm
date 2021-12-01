@@ -1,0 +1,75 @@
+.content{
+    height: 1500px;
+}
+.tile-stats {
+    position: relative;
+    display: block;
+    margin-bottom: 12px;
+    border: 1px solid #E4E4E4;
+    -webkit-border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 5px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 5px;
+    -moz-background-clip: padding;
+    border-radius: 5px;
+    background: #FFF;
+    transition: all .3s ease-in-out;
+    width: 25%;
+    float: left;
+}   
+.tile-stats .icon {
+    width: 20px;
+    height: 20px;
+    color: #BAB8B8;
+    position: absolute;
+    right: 53px;
+    top: 22px;
+    z-index: 1;
+}
+.tile-stats .count, .tile-stats h3, .tile-stats p {
+    position: relative;
+    margin: 0 0 0 10px;
+    z-index: 5;
+    padding: 0;
+}
+.chart{
+    width: 75%;
+    float: left;
+}
+.n-v{
+    margin-top: 40px;
+}
+.list-unstyled {
+    margin-top: 20px;
+}
+.media{
+    border: 1px solid black;
+    border-radius:  10px;
+    padding: 10px;
+    background: #d1d1e0;
+}
+.n-i{
+    float: left;
+}
+.a1 img{
+    width: 50px;
+    height: 50px;
+}
+.news{
+    width: 33%;
+    float: left;
+    margin: 2px;
+}
+.new-b{
+    border: 1px solid gray;
+}
+.a1{
+    padding: 10px;
+    border-style: none none dotted none;
+    border-color: gray;
+    border-width: 1px;
+}
+.news p{
+
+}
